@@ -11,40 +11,37 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            color: #d4a373;
-            text-align: center;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            height: 100vh; /* Ensures the page takes up the full viewport height */
+            height: 100vh; /* Ensure the page uses the full height of the viewport */
+            text-align: center;
+            color: #d4a373;
+        }
+        img {
+            margin-bottom: 20px;
+            width: 250px; /* Adjusted size for the icon */
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         }
         .container {
-            background-color: rgba(62, 39, 35, 0.9); /* Transparent dark color for the box */
+            background-color: rgba(62, 39, 35, 0.9); /* Transparent dark box */
             padding: 30px;
             border-radius: 15px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
             max-width: 90%;
             width: 500px;
         }
-        img {
-            margin-bottom: 20px;
-            max-width: 100%;
-            height: auto;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 200px; /* Increased size of the icon */
-        }
     </style>
 </head>
 <body>
-    <img src="./img/disconnect.png" alt="disconnect-img"> <!-- Larger icon -->
+    <img src="./img/disconnect.png" alt="disconnect-img"> <!-- Icon with adjusted size -->
     <div class="container">
         <h1>text</h1>
         <p>Select a category or enjoy the view!</p>
-        <p>2025 ©(notvaild) text</p>
+        <p>2025 ©(notvalid) text</p>
     </div>
 </body>
 </html>
